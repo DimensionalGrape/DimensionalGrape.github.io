@@ -1,8 +1,50 @@
 Nothing much now, maybe I'll do something with this site later.
 
-May or may not be developing Wii homebrew. 
-
-(I don't know how to code lol)
-
+Definitely not developing Wii homebrew. 
 
 Twitter: [@dmgr_](https://twitter.com/dmgr_)
+Discord: dmgr_#5616
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cmoc when
