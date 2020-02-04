@@ -1,7 +1,7 @@
-## wow cool website
+## wow cool website dmgr_
 
-Nothing much now, maybe I'll do something with this site later.
+Eventually I'll actually upload an index.html lol
 
 Twitter: [@dmgr_](https://twitter.com/dmgr_)
 
-Discord: dmgr_#5616
+Discord: @dmgr_#5616
