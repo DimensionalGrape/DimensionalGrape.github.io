@@ -1,5 +1,5 @@
 body {
-    background-color: #1d1d1d;
+    background-color: #1f1f1f;
 }
 
 .avy {
@@ -24,6 +24,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.fact {
+    color: grey;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
 a:link {
     color:lightgrey;
 }
@@ -41,12 +48,13 @@ a:visited {
 .footer {
 
     position: fixed;
-    padding: 25px;
+    padding: 10px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: transparent;
     color: grey;
+    background-color: rgba(26, 26, 26, 0.9);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
