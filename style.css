@@ -39,11 +39,11 @@ body {
 }
 
 a:link {
-    color:lightgrey;
+    color:rgba(255, 255, 255, 0.6);
 }
 
 a:visited {
-    color: lightgrey;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .links {
