@@ -1,14 +1,15 @@
 body {
     background-color: #1f1f1f;
+
 }
 
 .avy {
     display: block;
     margin-left: auto;
-     margin-right: auto;
+    margin-right: auto;
     width: 20%;
     height: 20%;
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
 
 }
@@ -23,14 +24,18 @@ body {
 .text {
     color: white;
     text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
     font-family: 'Montserrat', sans-serif;
 }
 
 .fact {
-    color: grey;
+    color: rgba(255, 255, 255, 0.6);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    padding: 10px;
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 a:link {
@@ -48,15 +53,13 @@ a:visited {
 }
 
 .footer {
-
     position: fixed;
     padding: 10px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: transparent;
     color: grey;
-    background-color: rgba(26, 26, 26, 0.9);
+    background-color: rgba(26, 26, 26, 0.8);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
