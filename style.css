@@ -19,14 +19,14 @@ a , a.hover , a.visited {
 
 .text , .cursor {
     color: #fff;
-    font-size: 36px;
+    font-size: 2.75em;
     line-height: 100%;
 }
 
 /* please forgive me for the following terrible css */
 
 .text2 {
-    font-size: 36px;
+    font-size: 2.75em;
     line-height: 100%;
     margin-top: -0.8em;
 }
@@ -45,16 +45,17 @@ a , a.hover , a.visited {
 }
 
 .links , .source {
-    font-size: 16px;
+    font-size: 1.5em;
 }
 
 .footer {
     position: fixed;
-    padding: 10px;
+    padding: 5px;
     left: 0;
     bottom: 0;
     width: 100%;
     color: #a0a0a0;
     text-align: center;
+    font-size: 1.5em;
     font-family: 'Perfect DOS VGA 437', sans-serif;
 }
