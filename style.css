@@ -2,13 +2,15 @@ body {
     background-color: #000;
     font-family: 'Perfect DOS VGA 437', Fallback, sans-serif;
     margin: 3%;
-    color: #fff;
 }
 
-a , a.hover , a.visited {
+a {
     color: #a0a0a0;
 }
 
+a:hover {
+    color: #cccccc
+}
 
 @font-face {
     font-family: 'Perfect DOS VGA 437';
@@ -17,7 +19,7 @@ a , a.hover , a.visited {
           url('fonts/vga437.ttf') format('truetype');
 }
 
-.text , .cursor {
+.text , .cursor , .text2 {
     color: #fff;
     font-size: 2.75em;
     line-height: 100%;
@@ -26,8 +28,6 @@ a , a.hover , a.visited {
 /* please forgive me for the following terrible css */
 
 .text2 {
-    font-size: 2.75em;
-    line-height: 100%;
     margin-top: -0.8em;
 }
 
