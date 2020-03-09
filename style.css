@@ -1,77 +1,69 @@
 body {
-    background-color: #000;
-    font-family: 'Perfect DOS VGA 437', Fallback, sans-serif;
-    margin: 3%;
+    background-color: #1f1f1f;
+
 }
 
-a {
-    color: #a0a0a0;
+.avy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+    height: 10%;
+    padding: 15px;
+    border-radius: 50%;
+
 }
 
-a:hover {
-    color: #cccccc
+.header-text {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 2px grey;
 }
 
-@font-face {
-    font-family: 'Perfect DOS VGA 437';
-    src: url('fonts/vga437.woff2') format('woff2'),
-        url('fonts/vga437.woff') format('woff'),
-        url('fonts/vga437.ttf') format('truetype');
+.text {
+    color: white;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.text,
-.cursor,
 .text2 {
-    color: #fff;
-    font-size: 2.75em;
-    line-height: 100%;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-/* please forgive me for the following terrible css */
-
-.text2 {
-    margin-top: -0.8em;
+.fact {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.cursor {
-    animation: blinkingText 350ms infinite;
-    margin-top: -0.8em;
+a:link {
+    color:rgba(255, 255, 255, 0.6);
 }
 
-@keyframes blinkingText {
-    0% {
-        color: #fff;
-    }
-
-    49% {
-        color: #fff;
-    }
-
-    50% {
-        color: transparent;
-    }
-
-    99% {
-        color: transparent;
-    }
-
-    100% {
-        color: #fff;
-    }
+a:visited {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .links {
-    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer {
     position: fixed;
-    padding: 5px;
-    left: 0;
+    padding: 10px;
+    left: 0 ;
     bottom: 0;
     width: 100%;
-    color: #a0a0a0;
+    color: grey;
+    background-color: rgba(26, 26, 26, 0.8);
     text-align: center;
-    font-size: 1.5em;
-    font-family: 'Perfect DOS VGA 437', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }

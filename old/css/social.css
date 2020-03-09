@@ -1,0 +1,70 @@
+body {
+    background-color: #000;
+    font-family: 'Perfect DOS VGA 437', Fallback, sans-serif;
+    margin: 3%;
+}
+
+a {
+    color: #a0a0a0;
+}
+
+a:hover {
+    color: #cccccc
+}
+
+@font-face {
+    font-family: 'Perfect DOS VGA 437';
+    src: url('/fonts/vga437.woff2') format('woff2'),
+        url('/fonts/vga437.woff') format('woff'),
+        url('/fonts/vga437.ttf') format('truetype');
+}
+
+.text ,
+.cursor {
+    color: #fff;
+    font-size: 2.75em;
+    line-height: 100%;
+}
+
+.cursor {
+    animation: blinkingText 350ms infinite;
+    margin-top: -0.8em;
+}
+
+@keyframes blinkingText {
+    0% {
+        color: #fff;
+    }
+
+    49% {
+        color: #fff;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    99% {
+        color: transparent;
+    }
+
+    100% {
+        color: #fff;
+    }
+}
+
+.links , .idk {
+    color: #a0a0a0;
+    font-size: 1.5em;
+}
+
+.footer {
+    position: fixed;
+    padding: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #a0a0a0;
+    text-align: center;
+    font-size: 1.5em;
+}
