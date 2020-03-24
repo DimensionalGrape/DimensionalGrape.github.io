@@ -1,0 +1,54 @@
+body {
+    background-color: #1f1f1f;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.content , .content-rotated {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-rotated {
+    transform: translate(-50%, -50%) rotate(-1deg);
+}
+
+.text , .text-rotated {
+    font-size: 48px;
+    color: #fff;
+    margin: -15px;
+}
+
+.subtext {
+    font-size: 20px;
+    color: #ccc;
+    line-height: 1.2;
+}
+
+.links , .back {
+    font-size: 20px;
+    color: #ccc;
+}
+
+a {
+    color: #ccc;
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 1px 1px 3px #ccc
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #ccc;
+    background-color: rgba(26, 26, 26, 0.9);
+    text-align: center;
+}
