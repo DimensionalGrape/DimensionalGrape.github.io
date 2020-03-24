@@ -24,13 +24,13 @@ body {
 }
 
 .subtext {
-    font-size: 20px;
+    font-size: 24px;
     color: #ccc;
     line-height: 1.2;
 }
 
 .links , .back {
-    font-size: 20px;
+    font-size: 24px;
     color: #ccc;
 }
 
@@ -41,6 +41,10 @@ a {
 a:hover {
     color: #fff;
     text-shadow: 1px 1px 3px #ccc
+}
+
+.avy {
+    height: 20px;
 }
 
 .footer {
