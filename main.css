@@ -34,6 +34,17 @@ body {
     color: #ccc;
 }
 
+.riitag-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
 .links , .back {
     font-size: 24px;
     color: #ccc;
