@@ -1,10 +1,5 @@
-# wow cool website dmgr_
+# dmgrstuff.github.io
 
-~~Eventually I'll actually upload an index.html lol~~ nailed it
+This is the repo for [my website](https://dmgrstuff.github.io) and everything hosted on it (for the most part). It's pretty much just self-promotion right now, but maybe I'll use it for something useful one of these days.
 
-## shameless self promotion even though this is redundant because it's on the html but idc
-Twitter: [@dmgr_](https://twitter.com/dmgr_)
-
-YouTube: [dmgrstuff](https://www.youtube.com/channel/UCdRT93z4uRBNvtmlj7hpCiQ)
-
-Discord: @dmgr_#5616 (I also run [RiiConnect Central](https://discord.gg/ByaMmR9))
+I wrote the HTML/CSS for this site basically off my (very limited) existing knowledge, W3Schools tutorials, and Stack Overflow threads, so feel free to laugh at my ~~shameless copy-pasting~~ code.
