@@ -23,10 +23,9 @@ body {
     margin: -15px;
 }
 
-.subtext {
+.subtext , .codes {
     font-size: 24px;
     color: #ccc;
-    line-height: 1.2;
 }
 
 .projects {
@@ -38,11 +37,12 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     border-radius: 10px;
     width: 100%;
     max-width: 600px;
+    border: 5px solid #4f4f4f;
 }
 
 .links , .back {
