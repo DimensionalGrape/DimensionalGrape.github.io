@@ -72,3 +72,11 @@ a:hover {
     background-color: rgba(26, 26, 26, 0.9);
     text-align: center;
 }
+
+.not-found {
+    font-size: 60px;
+    color: #fff;
+    margin: -15px;
+    text-shadow: 2px 2px 0px #5a5a5a;
+    
+}
