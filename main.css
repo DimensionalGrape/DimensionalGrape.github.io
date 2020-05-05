@@ -51,10 +51,13 @@ body {
 .links , .back {
     font-size: 24px;
     color: #ccc;
+    
 }
 
 a {
     color: #ccc;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
 a:hover {
