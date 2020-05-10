@@ -3,8 +3,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     background-image: url(/img/bg_4k.jpg);
+    /* taken from itsravey.github.io */
     background-repeat: no-repeat;
-    background-size: 2560px 1440px;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .content , .content-rotated {
