@@ -2,7 +2,7 @@ body {
     background-color: #1f1f1f;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    background-image: url(/img/bg_4k.jpg);
+    background-image: url(/img/bg.jpg);
     /* taken from itsravey.github.io */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,7 +17,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: push-in 0.35s;
+    animation: push-in 0.3s;
     
 }
 
