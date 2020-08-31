@@ -34,6 +34,11 @@ body {
     to   { opacity: 1; }
 }
 
+@keyframes footer-fade {
+    from { opacity: 0; }
+    to   { opacity: 0.8; }
+}
+
 .content-rotated {
     transform: translate(-50%, -50%) rotate(-1deg);
 }
@@ -97,9 +102,10 @@ a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: #ccc;
+    color: #fff;
+    opacity: 0.8;
     text-align: center;
-    animation: fade 1.5s;
+    animation: footer-fade 1.5s;
 }
 
 .not-found {
