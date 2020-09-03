@@ -111,6 +111,5 @@ a:hover {
     font-size: 60px;
     color: #fff;
     margin: -15px;
-    text-shadow: 2px 2px 0px #5a5a5a;
-    
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
 }
