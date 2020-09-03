@@ -36,7 +36,7 @@ body {
 
 @keyframes footer-fade {
     from { opacity: 0; }
-    to   { opacity: 0.8; }
+    to   { opacity: 0.5; }
 }
 
 .content-rotated {
@@ -80,7 +80,6 @@ body {
 
 a {
     color: #fff;
-    opacity: 0.9;
     transition: text-shadow 0.25s;
     transition: opacity 0.25;
     text-decoration: none;
@@ -103,7 +102,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.5;
     text-align: center;
     animation: footer-fade 1.5s;
 }
