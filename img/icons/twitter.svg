@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="Twitter_Logo_WhiteOnBlue.svg"
+   id="svg867"
+   version="1.1"
+   viewBox="0 0 400 400">
+  <metadata
+     id="metadata871">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="Dark_Blue"
+     inkscape:window-maximized="1"
+     inkscape:window-y="29"
+     inkscape:window-x="-9"
+     inkscape:cy="180.97641"
+     inkscape:cx="-112.45517"
+     inkscape:zoom="1.04125"
+     showgrid="false"
+     id="namedview869"
+     inkscape:window-height="1013"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs855">
+    <style
+       id="style853">.cls-1{fill:#1da1f2;}.cls-2{fill:#fff;}.cls-3{fill:none;}</style>
+  </defs>
+  <title
+     id="title857">Twitter_Logo_White-on-Blue</title>
+  <g
+     data-name="Dark Blue"
+     id="Dark_Blue" />
+  <g
+     data-name="Logo — FIXED"
+     id="Logo_FIXED">
+    <path
+       style="stroke-width:1.6"
+       id="path862"
+       d="m 125.7922,362.51096 c 150.94345,0 233.50345,-125.05684 233.50345,-233.50438 0,-3.55246 0,-7.08806 -0.24,-10.60805 A 166.97565,166.97565 0 0 0 400,75.918534 163.80779,163.80779 0 0 1 352.86434,88.830962 82.352,82.352 0 0 0 388.94435,43.438534 164.46435,164.46435 0 0 1 336.8322,63.358533 82.144,82.144 0 0 0 196.97565,138.20658 232.99221,232.99221 0 0 1 27.839999,52.462239 82.128,82.128 0 0 0 53.247795,162.01412 81.456001,81.456001 0 0 1 16,151.74223 c 0,0.3363 0,0.68873 0,1.04001 a 82.096001,82.096001 0 0 0 65.84,80.44872 81.936,81.936 0 0 1 -37.055652,1.40756 82.16,82.16 0 0 0 76.671302,56.99244 164.67221,164.67221 0 0 1 -101.919651,35.2 A 167.05565,167.05565 0 0 1 0,325.64659 232.33566,232.33566 0 0 0 125.7922,362.44658"
+       class="cls-2" />
+    <rect
+       id="rect864"
+       height="400"
+       width="400"
+       class="cls-3" />
+  </g>
+</svg>
