@@ -1,0 +1,2 @@
+# /stuff/wii
+[hebrew_channel.wad](https://dmgrstuff.github.io/stuff/wii/hebrew_channel.wad) - a stupid banner hack of the HBC I made for a Twitter joke (I'm not even sure if it works on real hardware lol)

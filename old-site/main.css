@@ -1,0 +1,115 @@
+body {
+    background-color: #1f1f1f;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-image: url(img/bg.jpg);
+    /* taken from itsravey.github.io */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.content , .content-rotated {
+    position: absolute;
+    height: auto;
+    width: auto;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: push-in 0.3s;
+    opacity: 0.9;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    
+}
+
+@keyframes push-in {
+    from { opacity: 0; top: 52%;}
+    to   { opacity: 1; top: 50%;}   
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes footer-fade {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+.content-rotated {
+    transform: translate(-50%, -50%) rotate(-1deg);
+}
+
+.text , .text-rotated {
+    font-size: 48px;
+    color: #fff;
+    margin: -15px;
+}
+
+.subtext , .codes {
+    font-size: 24px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.projects {
+    font-size: 20px;
+    color: #fff;
+}
+
+.riitag-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+
+.links , .back {
+    font-size: 24px;
+    color: #ccc;
+    
+}
+
+a {
+    color: #fff;
+    transition: text-shadow 0.25s;
+    transition: opacity 0.25;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25)
+}
+
+a:hover {
+    color: #fff;
+    opacity: 1;
+    text-shadow: 1px 1px 3px #ccc;
+}
+
+.avy {
+    height: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    animation: footer-fade 1.5s;
+}
+
+.not-found {
+    font-size: 60px;
+    color: #fff;
+    margin: -15px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
