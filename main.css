@@ -1,4 +1,4 @@
-body {
+html, body {
     color: white;
     background: black;
     background-position: center;
@@ -6,24 +6,22 @@ body {
     background-size: cover;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
 }
 
-/* animation */
 @keyframes push-in {
-    from { opacity: 0; top: 52%;}
-    to   { opacity: 1; top: 50%;}   
+    from { opacity: 0; margin-top: 1%;}
+    to   { opacity: 1; top: 0%;}   
 }
 
 .flex-container {
-    position: fixed;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+    height: 100%;
     animation: push-in 0.5s;
 }
 
@@ -32,15 +30,22 @@ body {
     padding-right: 15px;
 }
 
+.flex-container .left {
+    align-self: center;
+}
+
+.flex-container .right {
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
 .image {
     border-radius: 10px;
-    height: 256px;
-    width: 256px;
 }
 
 .quote {
-    font-size: 1.25em;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 /* link hover effects */
