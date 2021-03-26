@@ -1,80 +1,102 @@
+/* this css is very messy so don't use it as a reference or anything, i have no idea what i'm doing lol */
+
+:root {
+    --main: white;
+    --bg: black;
+    --shadow: rgba(0, 0, 0, 0.25);
+    --hover: #ccc;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("/fonts/Inter-Regular.woff");
+    src: url("/fonts/Inter-Regular.woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("fonts/Inter-Bold.woff");
+    src: url("fonts/Inter-Bold.woff2");
+    font-weight: bold;
+}
+
+@keyframes push-in {
+    from { opacity: 0; margin-left: -1%;}
+    to   { opacity: 1; margin-left: 0%;}   
+}
+
 html, body {
-    color: white;
-    background: black;
+    color: var(--main);
+    background: var(--bg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     margin: 0;
     height: 100%;
     overflow: hidden;
+    font-weight: normal;
 }
 
-@keyframes push-in {
-    from { opacity: 0; margin-top: 1%;}
-    to   { opacity: 1; top: 0%;}   
+body {
+    animation: push-in 0.5s ease;
 }
 
-.flex-container {
+.content, .not-found, .not-found-bg {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-content: center;
+	flex-flow: column wrap;
+    justify-content: center;
     height: 100%;
-    animation: push-in 0.5s;
+    margin-left: 10vw;
 }
 
-.flex-container > div {
-    padding-left: 15px;
-    padding-right: 15px;
+#image {
+    border-radius: 10px
 }
 
-.flex-container .left {
-    align-self: center;
+.subtext, .links {
+    font-size: 0.5em;
+    opacity: 0.5;
 }
 
-.flex-container .right {
-    align-self: center;
-    text-align: center;
-    padding: 10px;
+.links {
+    padding-top: 10px;;
+    color: var(--main);
 }
 
-.image {
-    border-radius: 10px;
-}
-
-.quote {
-    padding-bottom: 10px;
-}
-
-/* link hover effects */
 a {
     color: #fff;
+    text-decoration: none;
     transition: 0.15s filter;
     transition: opacity 0.25;
-    text-decoration: none;
-    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(1px 1px 3px var(--shadow));
 }
 
 a:hover {
     color: #fff;
     opacity: 1;
-    filter: drop-shadow(1px 1px 3px #ccc);
+    filter: drop-shadow(1px 1px 3px var(--hover));
 }
 
-/* only used on /404.html for now */
-.content {
+/* 404.html, could be improved */
+
+.not-found-bg {
+    color: white;
     position: absolute;
-    height: auto;
-    width: auto;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    z-index: auto; /* this works somehow, i won't question it */
+    opacity: 0.25;
+    font-size: 5em;
+    font-weight: bold;
 }
 
-.error-text {
-    font-size: 1.5em;
-    margin: -15px;
+.not-found > #text {
+    text-shadow: 1px 1px 3px var(--shadow);
+}
+
+.not-found > #return {
+    font-size: 0.6em;
+    opacity: 0.75;
+    z-index: 1;
 }

@@ -1,79 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="mastodon.svg"
-   id="svg849"
-   version="1.1"
-   viewBox="0 0 216.4144 232.00976"
-   height="65.47831mm"
-   width="61.076954mm">
-  <metadata
-     id="metadata855">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs853">
-    <linearGradient
-       osb:paint="solid"
-       id="linearGradient2797">
-      <stop
-         id="stop2795"
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       osb:paint="solid"
-       id="linearGradient859">
-      <stop
-         id="stop857"
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
-    </linearGradient>
-  </defs>
-  <sodipodi:namedview
-     inkscape:current-layer="svg849"
-     inkscape:window-maximized="1"
-     inkscape:window-y="29"
-     inkscape:window-x="-9"
-     inkscape:cy="123.73854"
-     inkscape:cx="115.42102"
-     inkscape:zoom="2.6251718"
-     showgrid="false"
-     id="namedview851"
-     inkscape:window-height="1013"
-     inkscape:window-width="1920"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
-     bordercolor="#666666"
-     pagecolor="#ffffff" />
-  <path
-     style="fill:#ffffff;fill-opacity:1"
-     id="path845"
-     d="M211.80734 139.0875c-3.18125 16.36625-28.4925 34.2775-57.5625 37.74875-15.15875 1.80875-30.08375 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.39125 27.9425 21.11625.7225 39.91875-5.20625 39.91875-5.20625l.8675 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23234 213.82 1.40609 165.31125.20859 116.09125c-.365-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67234 3.45375 78.20359.2425 107.86484 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.975 14.7525 32.975 65.0825 0 0 .41375 37.13375-4.59875 62.915"
-     fill="#2b90d9" />
-  <path
-     style="fill-opacity:1;fill:#000000"
-     id="path847"
-     d="M177.50984 80.077v60.94125h-24.14375v-59.15c0-12.46875-5.24625-18.7975-15.74-18.7975-11.6025 0-17.4175 7.5075-17.4175 22.3525v32.37625H96.20734V85.42325c0-14.845-5.81625-22.3525-17.41875-22.3525-10.49375 0-15.74 6.32875-15.74 18.7975v59.15H38.90484V80.077c0-12.455 3.17125-22.3525 9.54125-29.675 6.56875-7.3225 15.17125-11.07625 25.85-11.07625 12.355 0 21.71125 4.74875 27.8975 14.2475l6.01375 10.08125 6.015-10.08125c6.185-9.49875 15.54125-14.2475 27.8975-14.2475 10.6775 0 19.28 3.75375 25.85 11.07625 6.36875 7.3225 9.54 17.22 9.54 29.675"
-     fill="#fff" />
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<path 
+	style="fill:#ffffff;fill-opacity:1"
+	d="M254.7,0C190.2,0.3,126.1,8.5,92.8,23.8c0,0-71.7,32.6-71.7,143.8C21,300,21,466.3,139.9,498.4
+		c45.5,12.2,84.7,14.9,116.2,13.1c57.1-3.2,85.4-20.7,85.4-20.7l-1.9-42.2c0,0-37,13-82.9,11.6c-45.4-1.6-93.3-5-100.8-61.7
+		c-0.7-5.3-1-10.6-1-15.9c96.3,23.9,178.4,10.4,201,7.7c63.1-7.7,118-47.2,125-83.4c11-57,10.1-139,10.1-139
+		c0-111.2-71.6-143.8-71.6-143.8C384.2,7.4,319.2-0.3,254.7,0z M185.6,84.8c22.1,0.6,44,10.5,57.4,31.4l13,22.1l13-22.1
+		c27-42,87.6-39.4,116.4-6.9c26.6,30.9,20.7,50.9,20.7,189.1v0h-52.3V178.2c0-56.3-71.8-58.5-71.8,7.8v69.7h-51.9V186
+		c0-66.3-71.7-64.1-71.7-7.8v120.2H106c0-138.3-5.8-158.4,20.7-189.1C141.2,92.9,163.5,84.2,185.6,84.8z"/>
+</g>
 </svg>
